@@ -22,8 +22,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String BASE_URL = ""; // Base url of an api site
-    private static final String API_KEY = ""; // API KEY
+    private static final String BASE_URL = "https://openweathermap.org/"; // Base url of an api site
+    private static final String API_KEY = "9e969eebcafda5be5106777879699dc6"; // API KEY
     TextView textView, showPlace;
     Button getButton;
     EditText getPlaceName;
